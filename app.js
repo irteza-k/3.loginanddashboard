@@ -37,6 +37,3 @@ app.get('/dashboard.html', (req, res) => {
     res.sendFile(__dirname + '/dashboard.html');
 });
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
