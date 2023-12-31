@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm" action="/login" method="post">
+        <label for="username">Username (Email):</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <span id="passwordError" style="color: red;"></span><br><br>
+        
+        <input type="submit" value="Login">
+    </form>
+    
+    <p>Forgot your password? <a href="mailto:support@smartserv.io">Reset Password</a></p>
+</body>
+</html>
